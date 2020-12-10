@@ -1,0 +1,12 @@
+.body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: overlay;
+  flex: 0.8;
+  color: white;
+  background: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

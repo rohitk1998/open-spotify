@@ -1,0 +1,58 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  flex: 0.8;
+  color: white;
+  background: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 150px;
+}
+.track__card {
+  width: 200px;
+  height: fit-content;
+  background-color: rgb(19, 19, 19);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  transition: 200ms all ease-in;
+  background-color: rgb(39, 39, 39);
+  border: 10px solid rgb(39, 39, 39);
+  padding: 20px;
+  margin-right: 100px;
+}
+.track__card:hover {
+  background-color: rgb(39, 39, 39);
+  border: 10px solid black;
+}
+
+.track__card > img {
+  object-fit: fill;
+  position: relative;
+  width: 150px;
+  height: 180px;
+  background-color: rgb(19, 19, 19);
+  border: none;
+  border-image: none;
+}
+.track__card > h4 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.track__card > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 16px;
+}

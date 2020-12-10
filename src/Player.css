@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.player {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+}
+
+.player__body {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-grow: 1;
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+}

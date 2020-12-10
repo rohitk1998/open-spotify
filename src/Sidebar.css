@@ -1,0 +1,45 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 250px;
+  min-height: 100vh;
+  color: white;
+  background-color: #040404;
+  box-shadow: 3px 0px 18px 5px rgba(0, 0, 0, 0.75);
+  position: fixed;
+}
+
+.sidebar > a {
+  text-decoration: none;
+}
+
+.sidebar__logo {
+  width: 100%;
+}
+
+.sidebar__logo > img {
+  object-fit: contain;
+  width: 120px;
+  height: 100px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.sidebar > hr {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.sidebar .sidebar__title {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
